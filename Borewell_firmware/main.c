@@ -13,7 +13,6 @@
 #include <avr/wdt.h> 
 #include <avr/eeprom.h>
 
-//void check_wdt(void);
 long int calculate_next_ON_OFF_time(long int);
 void int_to_time_format(long int );
 
@@ -36,7 +35,6 @@ void main()
 	PORTD = 0xFF; //pull up the portd
 	
 	char time[15];
-	//char date[2];
 	char Intial_Time_Buff[8];
 	char Temp_Buff[15];
 	long int Intial_Time;
@@ -45,13 +43,12 @@ void main()
 	long int Buzzer_ON_Time = 0;
 	long int OFF_Time = 10;
 	long int mod_val;
-	//char buff[16];
 	char on_flag = 0;
 	char off_flag = 0;
 	char motor_on_counter = 0;
 	long int eeprom_on_time = 0;
 	int ON_TIME_DELAY = 40;
-	const int OFF_TIME_DELAY = 20000;//for 1hr=10000, 1min=100, 1sec=1
+	const int OFF_TIME_DELAY = 20000;//for 1hr=10000, 1min=100, 1sec=1 now  its 2 hours off period
 
 	lcd_init(); 			//LCD Port Initiliasation.
 	i2c_init();
@@ -126,7 +123,7 @@ void main()
 		current_time = (atol(Intial_Time_Buff));
 		LCDGotoXY(0,0);
 		//lcd_clr();
-		if(current_time >= 90000 && current_time <= 90005 )//counter = 0 at 9am
+		if(current_time >= 90000 && current_time <= 90005 )//counter = 0 at 9am to 9:0:5
 		{
 			motor_on_counter = 0;
 			eeprom_write_byte((uint8_t*)10,motor_on_counter);
@@ -205,32 +202,6 @@ void main()
 		//PORTB &= ~(0x04); //for buzzer
 	}	
 }
-#if 0
-void check_wdt(void){
-	char cnt;
-	/***************Enabke this************************/
-	//cnt = eeprom_read_byte((uint8_t*)20);
-	/**************************************************/
-    if(MCUSR & _BV(WDRF)){	                  // If a reset was caused by the Watchdog Timer...
-        MCUSR &= ~_BV(WDRF);                // Clear the WDT reset flag
-        WDTCSR |= (_BV(WDCE) | _BV(WDE));   // Enable the WD Change Bit
-        WDTCSR = 0x00;                      // Disable the WDT
-	  	cnt++;
-		eeprom_write_byte((uint8_t*)20,cnt); // in 20th address will save the wdt counter value,,
-		if(cnt >= 5)
-		{
-			cnt = 0;
-			eeprom_write_byte((uint8_t*)20,cnt); 
-			lcd_clr();
-			LCDGotoXY(0,0);
-			lcd_write_str("****ERROR****");
-			LCDGotoXY(0,1);
-			lcd_write_str("TURN OFF SYSTEM");
-			while(1);
-		}
-    }
-}
-#endif
 long int calculate_next_ON_OFF_time(long int ON_Time)
 {
 	wdt_reset();
