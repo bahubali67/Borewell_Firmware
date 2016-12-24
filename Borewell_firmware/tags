@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ISR	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\wdt.c	114;"	kind:function	line:114	language:C
+LCDGotoXY	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\lcd.c	93;"	kind:function	line:93	language:C	signature:(unsigned char x, unsigned char y)
+LCDGotoXY	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\time_date.c	10;"	kind:function	line:10	language:C	signature:(unsigned char x, unsigned char y)
+calculate_next_ON_OFF_time	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\main.c	234;"	kind:function	line:234	language:C	signature:(long int ON_Time)
+calculate_next_ON_OFF_time	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\main_test_for_seconds.c	201;"	kind:function	line:201	language:C	signature:(int *ON_Time,int mod_val)
+calculate_next_ON_OFF_time	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\test.c	210;"	kind:function	line:210	language:C	signature:(long int ON_Time)
+check_wdt	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\wdt.c	61;"	kind:function	line:61	language:C	signature:(void)
+clear_ON_TIME	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\main.c	20;"	kind:function	line:20	language:C	signature:(void)
+date	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\rtc.c	4;"	kind:variable	line:4	language:C
+i2c_init	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\i2c.c	3;"	kind:function	line:3	language:C
+i2c_receiveData_ACK	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\i2c.c	76;"	kind:function	line:76	language:C	signature:(void)
+i2c_receiveData_NACK	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\i2c.c	91;"	kind:function	line:91	language:C	signature:(void)
+i2c_repeatStart	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\i2c.c	26;"	kind:function	line:26	language:C	signature:(void)
+i2c_sendAddress	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\i2c.c	38;"	kind:function	line:38	language:C	signature:(unsigned char address)
+i2c_sendData	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\i2c.c	62;"	kind:function	line:62	language:C	signature:(unsigned char data)
+i2c_start	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\i2c.c	13;"	kind:function	line:13	language:C	signature:(void)
+i2c_stop	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\i2c.c	106;"	kind:function	line:106	language:C	signature:(void)
+init_devices	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\wdt.c	78;"	kind:function	line:78	language:C	signature:(void)
+init_io	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\wdt.c	109;"	kind:function	line:109	language:C	signature:(void)
+int_to_time_format	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\main.c	261;"	kind:function	line:261	language:C	signature:(long int int_val)
+int_to_time_format	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\test.c	237;"	kind:function	line:237	language:C	signature:(long int int_val)
+lcd_clr	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\lcd.c	9;"	kind:function	line:9	language:C
+lcd_cmd	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\lcd.c	31;"	kind:function	line:31	language:C	signature:(unsigned char cmd)
+lcd_init	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\lcd.c	15;"	kind:function	line:15	language:C	signature:(void)
+lcd_write	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\lcd.c	54;"	kind:function	line:54	language:C	signature:(unsigned char data)
+lcd_write_int	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\lcd.c	85;"	kind:function	line:85	language:C	signature:( long int num)
+lcd_write_str	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\lcd.c	77;"	kind:function	line:77	language:C	signature:(char *data)
+loop	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\wdt.c	130;"	kind:function	line:130	language:C
+main	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\main.c	29;"	kind:function	line:29	language:C
+main	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\main_test_for_seconds.c	24;"	kind:function	line:24	language:C
+main	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\test.c	20;"	kind:function	line:20	language:C
+main	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\time_date.c	18;"	kind:function	line:18	language:C
+main	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\wdt.c	35;"	kind:function	line:35	language:C	signature:(void)
+rtc_get_date	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\rtc.c	78;"	kind:function	line:78	language:C	signature:(char *date)
+rtc_get_time	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\rtc.c	58;"	kind:function	line:58	language:C	signature:(char *time)
+rtc_init	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\rtc.c	226;"	kind:function	line:226	language:C
+rtc_read	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\rtc.c	6;"	kind:function	line:6	language:C
+rtc_reg	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\rtc.c	3;"	kind:variable	line:3	language:C
+rtc_set_date	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\rtc.c	199;"	kind:function	line:199	language:C
+rtc_set_registers	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\rtc.c	97;"	kind:function	line:97	language:C
+rtc_set_time	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\rtc.c	174;"	kind:function	line:174	language:C
+rtc_write_date	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\rtc.c	142;"	kind:function	line:142	language:C
+rtc_write_time	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\rtc.c	109;"	kind:function	line:109	language:C
+setup	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\wdt.c	125;"	kind:function	line:125	language:C
+setup_wdt	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\wdt.c	69;"	kind:function	line:69	language:C	signature:(void)
+temp_func	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\main.c	25;"	kind:function	line:25	language:C	signature:(void)
+tick_flag	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\wdt.c	33;"	kind:variable	line:33	language:C
+time	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\rtc.c	4;"	kind:variable	line:4	language:C
+timer0_init	C:\Users\shri\Documents\AVRStudio 5.1\borewell\borewell_9_may_2016\wdt.c	99;"	kind:function	line:99	language:C	signature:(void)

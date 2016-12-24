@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "borewell", "borewell.cproj", "{B4800994-D592-45A3-A83F-F24BD3FA78AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4800994-D592-45A3-A83F-F24BD3FA78AB}.Debug|AVR.ActiveCfg = Debug|AVR
+		{B4800994-D592-45A3-A83F-F24BD3FA78AB}.Debug|AVR.Build.0 = Debug|AVR
+		{B4800994-D592-45A3-A83F-F24BD3FA78AB}.Release|AVR.ActiveCfg = Release|AVR
+		{B4800994-D592-45A3-A83F-F24BD3FA78AB}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
